@@ -15,7 +15,7 @@ const cookieParser = require('cookie-parser');
 
 
 app.use(bodyParser.json());
-const allowedOrigins = ['http://localhost:3000']; // Add more origins as needed
+const allowedOrigins = ['http://localhost:3000', 'https://bloomblog-crvzprofu-lakshminarayanandds-projects.vercel.app']; // Add more origins as needed
 
 // Configure CORS with credentials
 app.use(
